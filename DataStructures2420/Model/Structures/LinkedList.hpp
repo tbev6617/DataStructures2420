@@ -183,5 +183,6 @@ LinkedList<Type> :: getSize() const
     return this->size();
 }
 
+
 #endif /* LinkedList_hpp */
 
