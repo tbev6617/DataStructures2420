@@ -15,6 +15,7 @@
 template <class Type>
 class Stack : public LinkedList<Type>
 {
+public:
     Stack();
     ~Stack();
     
@@ -110,7 +111,5 @@ Type Stack<Type> :: getFromIndex(int index)
     assert(index == 0);
     return peek();
 }
-
-
 
 #endif /* Stack_hpp */
