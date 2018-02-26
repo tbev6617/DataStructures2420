@@ -43,7 +43,7 @@ public:
     virtual void addAtIndex(int index, Type item);
     virtual Type getFromIndex(int index);
     virtual Type remove(int index;
-}
+};
 LinkedList<Type> :: LinkedList()
 {
     this->ront = nullptr;
