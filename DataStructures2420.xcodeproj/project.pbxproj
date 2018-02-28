@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083D902E2047138A0012BA7D /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 083D902C2047138A0012BA7D /* LinkedListTester.cpp */; };
 		085CF905202A09D80019CAAC /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 085CF903202A09D80019CAAC /* FileController.cpp */; };
 		085CF906202A09D80019CAAC /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 085CF904202A09D80019CAAC /* Controller.cpp */; };
 		085CF909202A09E20019CAAC /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 085CF908202A09E20019CAAC /* Timer.cpp */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		083D902C2047138A0012BA7D /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
+		083D902D2047138A0012BA7D /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
 		085CF8F0202A09080019CAAC /* DataStructures2420 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures2420; sourceTree = BUILT_PRODUCTS_DIR; };
 		085CF901202A09D80019CAAC /* FileController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		085CF902202A09D80019CAAC /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 			children = (
 				085CF90F202A09F80019CAAC /* ArrayTester.cpp */,
 				085CF910202A09F80019CAAC /* ArrayTester.hpp */,
+				083D902C2047138A0012BA7D /* LinkedListTester.cpp */,
+				083D902D2047138A0012BA7D /* LinkedListTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 				085CF90E202A09F10019CAAC /* CrimeData.cpp in Sources */,
 				085CF909202A09E20019CAAC /* Timer.cpp in Sources */,
 				085CF913202A0A000019CAAC /* Runner.cpp in Sources */,
+				083D902E2047138A0012BA7D /* LinkedListTester.cpp in Sources */,
 				085CF905202A09D80019CAAC /* FileController.cpp in Sources */,
 				085CF906202A09D80019CAAC /* Controller.cpp in Sources */,
 			);
