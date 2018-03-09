@@ -14,6 +14,7 @@
 		085CF90E202A09F10019CAAC /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 085CF90B202A09F10019CAAC /* CrimeData.cpp */; };
 		085CF911202A09F80019CAAC /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 085CF90F202A09F80019CAAC /* ArrayTester.cpp */; };
 		085CF913202A0A000019CAAC /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 085CF912202A0A000019CAAC /* Runner.cpp */; };
+		088FDC86204D901F00CE0E99 /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 088FDC84204D901F00CE0E99 /* RecursionTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		086EFEF1203F289400D0DFEA /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		0884D5E420445E230002019A /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		0884D5E720445E570002019A /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
+		088FDC84204D901F00CE0E99 /* RecursionTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTester.cpp; sourceTree = "<group>"; };
+		088FDC85204D901F00CE0E99 /* RecursionTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTester.hpp; sourceTree = "<group>"; };
 		08AB94392031F95E001D9D4F /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		08AB943F2031F9AA001D9D4F /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		08AB94422031F9C0001D9D4F /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				085CF910202A09F80019CAAC /* ArrayTester.hpp */,
 				083D902C2047138A0012BA7D /* LinkedListTester.cpp */,
 				083D902D2047138A0012BA7D /* LinkedListTester.hpp */,
+				088FDC84204D901F00CE0E99 /* RecursionTester.cpp */,
+				088FDC85204D901F00CE0E99 /* RecursionTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				085CF909202A09E20019CAAC /* Timer.cpp in Sources */,
 				085CF913202A0A000019CAAC /* Runner.cpp in Sources */,
 				083D902E2047138A0012BA7D /* LinkedListTester.cpp in Sources */,
+				088FDC86204D901F00CE0E99 /* RecursionTester.cpp in Sources */,
 				085CF905202A09D80019CAAC /* FileController.cpp in Sources */,
 				085CF906202A09D80019CAAC /* Controller.cpp in Sources */,
 			);

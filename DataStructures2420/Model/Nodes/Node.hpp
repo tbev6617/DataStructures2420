@@ -9,6 +9,8 @@
 #ifndef Node_hpp
 #define Node_hpp
 
+
+template <class Type>
 class Node
 {
 private:

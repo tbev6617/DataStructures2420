@@ -8,6 +8,8 @@
 
 #include "Controller.hpp"
 #include "ArrayTester.hpp"
+#include "../Testers/RecursionTester.hpp"
+#include "../Testers/LinkedListTester.hpp"
 
 using namespace std;
 
@@ -21,9 +23,14 @@ void Controller :: start()
 //    codeTimer.displayInformation();
 //    findMaxAndMin();
     
-    ArrayTester myTest;
-    myTest.testArray();
-    myTest.testAdvancedArray();
+//    ArrayTester myTest;
+//    myTest.testArray();
+//    myTest.testAdvancedArray();
+    RecursionTester test;
+    test.testRecursionNumbers();
+    LinkedListTester tester;
+    //tester.testListBasics();
+    tester.testListWithData();
 }
 
 void Controller :: findMaxAndMin()
