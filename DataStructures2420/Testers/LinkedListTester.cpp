@@ -46,12 +46,16 @@ void LinkedListTester :: testListWithData()
     listTimer.startTimer();
     LinkedList<CrimeData> crimes = FileController :: readDataToList("/Users/tbev6617/Documents/Data Structures/DataStructures2420/DataStructures2420/Data/crime.csv");
     listTimer.stopTimer();
-    cout << "this is how long it took to read the crimeData";
+    cout << "this is how long it took to read the crimeData" << endl;
     listTimer.displayInformation();
     
     listTimer.resetTimer();
     cout << "Here is how long it takes to access a random value" << endl;
     listTimer.startTimer();
     int randomLocation = (rand() * rand()) % crimes.getSize();
-    //TODO
+    cout << "The random index is " << randomLocation << endl;
+    double totalViolentRate = crimes.getFromIndex(randomLocation).getAllViolentRates();
+    listTimer.stopTimer();
+    cout << "The random crime stat is: " << totalViolentRate << ", and here is the time" << endl;
+    listTimer.displayInformation();
 }
