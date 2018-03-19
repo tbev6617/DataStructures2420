@@ -11,6 +11,7 @@
 
 #include "Tools/Timer.hpp"
 #include "FileController.hpp"
+#include "SortingTester.hpp";
 #include <vector>
 #include <iostream>
 

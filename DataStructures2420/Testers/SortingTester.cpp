@@ -40,17 +40,20 @@ void SortingTester :: swap(vector<CrimeData> info, int small, int large)
     CrimeData temp = info[small];
     info[small] = info[large];
     info[large] = temp;
+    swapCount++;
 }
 
 void SortingTester :: testSorts()
 {
     Timer sortTimer;
+    swapCount = 0;
     vector<CrimeData> data = FileController :: readCrimeDataToVector("/Users/tbev6617/Documents/Data Structures/DataStructures2420/DataStructures2420/Data/crime.csv");
     
     sortTimer.startTimer();
     quickSort(data, 0, data.size());
     sortTimer.stopTimer();
     sortTimer.displayInformation();
+    cout << "The number of swaps were: " << swapCount << endl;
 }
 
 
