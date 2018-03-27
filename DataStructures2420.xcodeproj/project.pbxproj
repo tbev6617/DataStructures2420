@@ -67,6 +67,7 @@
 		08FBFA73206A91DA00BF2CB9 /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
 		08FBFA77206A941500BF2CB9 /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
 		08FBFA78206A941500BF2CB9 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
+		08FBFA7B206A9EBD00BF2CB9 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				085E4A502060020A0048D656 /* Graph.hpp */,
+				08FBFA7B206A9EBD00BF2CB9 /* Tree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
