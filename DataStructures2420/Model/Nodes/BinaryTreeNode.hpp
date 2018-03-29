@@ -10,10 +10,11 @@
 #define BinaryTreeNode_hpp
 
 #include <iostream>
+#include "Node.hpp"
 using namespace std;
 
 template <class Type>
-class BinaryTreeNode
+class BinaryTreeNode : public Node<Type>
 {
 private:
     BinaryTreeNode<Type> * root;
@@ -21,7 +22,7 @@ private:
     BinaryTreeNode<Type> * right;
 
 public:
-    binaryTreeNode();
+    BinaryTreeNode();
     BinaryTreeNode(Type data);
     
     void setRootNode(BinaryTreeNode<Type> * root);
@@ -68,19 +69,19 @@ BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftNode()
 }
 
 template <class Type>
-BinaryTreeNode<Type> :: setRootNode(BinaryTreeNode<Type> * newRoot)
+void BinaryTreeNode<Type> :: setRootNode(BinaryTreeNode<Type> * root)
 {
-    root = newRoot;
+    this->root = root;
 }
 
 template <class Type>
-BinaryTreeNode<Type> :: setRightNode(BinaryTreeNode<Type> * right)
+void BinaryTreeNode<Type> :: setRightNode(BinaryTreeNode<Type> * right)
 {
     this->right = right;
 }
 
 template <class Type>
-BinaryTreeNode<Type> :: setRightNode(BinaryTreeNode<Type> * left)
+void BinaryTreeNode<Type> :: setLeftNode(BinaryTreeNode<Type> * left)
 {
     this->left = left;
 }

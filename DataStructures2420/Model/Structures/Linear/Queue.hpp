@@ -9,7 +9,7 @@
 #ifndef Queue_hpp
 #define Queue_hpp
 
-#include "LinkedList"
+#include "../Linear/LinkedList.hpp"
 #include <iostream>
 using namespace std;
 
@@ -24,11 +24,11 @@ public:
     void enqueue(Type data);
     Type dequeue();
     Type peek();
-    Type clear();
+    void clear();
     
     //Overridden LinkedList methods
     void add(Type data);
-    void addAtIndex(int index, type data);
+    void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
 };

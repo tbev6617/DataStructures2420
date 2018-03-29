@@ -10,7 +10,7 @@
 #define Stack_hpp
 
 #include <stdio.h>
-#include "inkedList.hpp"
+#include "LinkedList.hpp"
 
 template <class Type>
 class Stack : public LinkedList<Type>
@@ -25,8 +25,8 @@ public:
     Type peek();
     
     //Overridden LinkedList methods
-    void add(Type data)
-    void addAtIndex(int index, Type data)
+    void add(Type data);
+    void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
 };
@@ -82,7 +82,7 @@ Type Stack<Type> :: pop()
     assert(this->size > 0);
     Type removed = this->front->getData();
     
-    LinearNode<Type> * removedNode = this-getFront();
+    LinearNode<Type> * removedNode = this->getFront();
     this->front = removedNode->getNextNode();
     delete removedNode;
     
