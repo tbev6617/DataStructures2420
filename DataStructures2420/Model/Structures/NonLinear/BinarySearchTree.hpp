@@ -25,6 +25,7 @@ protected:
     void inOrderTraversal(BinaryTreeNode<Type> * inStart);
     void preOrderTraversal(BinaryTreeNode<Type> * preStart);
     void postOrderTraversal(BinaryTreeNode<Type> * postStart);
+    void destroyTree(BinaryTreeNode<Type> * node);
     
     BinaryTreeNode<Type> * getRightMostChild(BinaryTreeNode<Type> * current);
     BinaryTreeNode<Type> * getLeftMostChild(BinaryTreeNode<Type> * current);
@@ -64,7 +65,18 @@ BinarySearchTree<Type> :: BinarySearchTree()
 template <class Type>
 BinarySearchTree<Type> :: ~BinarySearchTree()
 {
-    
+    destroyTree(this->root);
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: destroyTree(BinaryTreeNode<Type> * node)
+{
+    if(node != nullptr)
+    {
+        destroyTree(node->getLeftNode());
+        destroyTree(node->getRightNode());
+        delete node;
+    }
 }
 
 template <class Type>
