@@ -10,6 +10,7 @@
 #include "ArrayTester.hpp"
 #include "../Testers/RecursionTester.hpp"
 #include "../Testers/LinkedListTester.hpp"
+#include "../Testers/BinaryTreeTester.hpp"
 
 using namespace std;
 
@@ -26,13 +27,17 @@ void Controller :: start()
 //    ArrayTester myTest;
 //    myTest.testArray();
 //    myTest.testAdvancedArray();
-    RecursionTester test;
-    test.testRecursionNumbers();
-    LinkedListTester tester;
-    //tester.testListBasics();
-    tester.testListWithData();
-    SortingTester latestTester;
-    latestTester.testSorts();
+//    RecursionTester test;
+//    test.testRecursionNumbers();
+//    LinkedListTester tester;
+//    tester.testListBasics();
+//    tester.testListWithData();
+//    SortingTester latestTester;
+//    latestTester.testSorts();
+    
+    BinaryTreeTester treeThing;
+    treeThing.doTreeStuff();
+    
 }
 
 void Controller :: findMaxAndMin()

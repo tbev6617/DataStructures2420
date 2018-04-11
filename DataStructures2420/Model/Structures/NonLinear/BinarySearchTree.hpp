@@ -62,6 +62,12 @@ BinarySearchTree<Type> :: BinarySearchTree()
 }
 
 template <class Type>
+BinarySearchTree<Type> :: ~BinarySearchTree()
+{
+    
+}
+
+template <class Type>
 void BinarySearchTree<Type> :: insert(Type item)
 {
     BinaryTreeNode<Type> * insertMe = new BinaryTreeNode<Type>(item);
@@ -137,7 +143,7 @@ void BinarySearchTree<Type> :: preOrderTraversal(BinaryTreeNode<Type> * currentN
     {
         cout << currentNode->getData() << endl;
         preOrderTraversal(currentNode->getLeftNode());
-        preOrderTraversal(currentNode->getRightNode);
+        preOrderTraversal(currentNode->getRightNode());
     }
 }
 
@@ -154,7 +160,7 @@ void BinarySearchTree<Type> :: postOrderTraversal(BinaryTreeNode<Type> * current
 {
     if(currentNode != nullptr)
     {
-        postOrderTraversal(currentNode()->getLeftNode());
+        postOrderTraversal(currentNode->getLeftNode());
         postOrderTraversal(currentNode->getRightNode());
         cout << currentNode->getData() << endl;
     }
@@ -233,6 +239,13 @@ bool BinarySearchTree<Type> :: isComplete(BinaryTreeNode<Type> * startNode, int 
     
     return (isComplete(startNode->getLeftNode(), 2 * index + 1, size) && isComplete(startNode->getRightNode(), 2 * index + 2, size));
 }
+
+template <class Type>
+bool BinarySearchTree<Type> :: isBalanced()
+{
+    return isBalanced(this-> root);
+}
+
 
 template <class Type>
 bool BinarySearchTree<Type> :: isBalanced(BinaryTreeNode<Type> * current)
