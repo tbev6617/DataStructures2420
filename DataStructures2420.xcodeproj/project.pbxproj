@@ -33,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0823A81820863B0000A421E2 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		083D902C2047138A0012BA7D /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
 		083D902D2047138A0012BA7D /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
 		085CF8F0202A09080019CAAC /* DataStructures2420 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures2420; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +204,7 @@
 				085E4A502060020A0048D656 /* Graph.hpp */,
 				08FBFA7B206A9EBD00BF2CB9 /* Tree.hpp */,
 				0890B1A9206D29A700352125 /* BinarySearchTree.hpp */,
+				0823A81820863B0000A421E2 /* AVLTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
