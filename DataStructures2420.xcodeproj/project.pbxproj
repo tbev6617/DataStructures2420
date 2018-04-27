@@ -57,6 +57,8 @@
 		086EFEF1203F289400D0DFEA /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		0875305020653F2F00D5D071 /* TestingStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestingStacksAndQueues.cpp; sourceTree = "<group>"; };
 		0875305120653F2F00D5D071 /* TestingStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestingStacksAndQueues.hpp; sourceTree = "<group>"; };
+		0876E5432093742A009B8B98 /* HashNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashNode.hpp; sourceTree = "<group>"; };
+		0876E5462093766C009B8B98 /* Hashtable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hashtable.hpp; sourceTree = "<group>"; };
 		0880BF76205AB33200E2F1A5 /* SortingTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTester.cpp; sourceTree = "<group>"; };
 		0880BF77205AB33200E2F1A5 /* SortingTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortingTester.hpp; sourceTree = "<group>"; };
 		0884D5E420445E230002019A /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				0884D5E720445E570002019A /* DoubleNode.hpp */,
 				08FBFA73206A91DA00BF2CB9 /* BinaryTreeNode.hpp */,
 				085039C6208E21A200AD9013 /* N-AryTreeNode.hpp */,
+				0876E5432093742A009B8B98 /* HashNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				08FBFA7B206A9EBD00BF2CB9 /* Tree.hpp */,
 				0890B1A9206D29A700352125 /* BinarySearchTree.hpp */,
 				0823A81820863B0000A421E2 /* AVLTree.hpp */,
+				0876E5462093766C009B8B98 /* Hashtable.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
