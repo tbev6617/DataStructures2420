@@ -36,6 +36,7 @@
 		0823A81820863B0000A421E2 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		083D902C2047138A0012BA7D /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
 		083D902D2047138A0012BA7D /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
+		085039C6208E21A200AD9013 /* N-AryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "N-AryTreeNode.hpp"; sourceTree = "<group>"; };
 		085CF8F0202A09080019CAAC /* DataStructures2420 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures2420; sourceTree = BUILT_PRODUCTS_DIR; };
 		085CF901202A09D80019CAAC /* FileController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		085CF902202A09D80019CAAC /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -194,6 +195,7 @@
 				08AB94392031F95E001D9D4F /* LinearNode.hpp */,
 				0884D5E720445E570002019A /* DoubleNode.hpp */,
 				08FBFA73206A91DA00BF2CB9 /* BinaryTreeNode.hpp */,
+				085039C6208E21A200AD9013 /* N-AryTreeNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
