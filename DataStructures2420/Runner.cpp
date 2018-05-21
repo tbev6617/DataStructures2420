@@ -19,7 +19,7 @@ int main()
     {
         cout << "the same" << endl;
     }
-//    Controller app;
-//    app.start();
+    Controller app;
+    app.start();
     return 0;
 }
