@@ -37,9 +37,10 @@ public:
     virtual void addAtIndex(int index, Type item);
     virtual Type getFromIndex(int index);
     virtual Type remove(int index);
-    //Type setAtIndex(int index, Type item);
-    //bool contains(Type item);
+//    Type setAtIndex(int index, Type item);
+//    bool contains(Type item);
 };
+
 template <class Type>
 LinkedList<Type> :: LinkedList()
 {
